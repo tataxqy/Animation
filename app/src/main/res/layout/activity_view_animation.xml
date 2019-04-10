@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/viewAccelerate"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:onClick="onClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <View
+            android:id="@+id/viewLinear"
+            android:alpha="0.5"
+            android:background="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:onClick="onClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/viewAlphaAnimation"
+            android:text="Alpha"
+            android:onClick="onClick"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/viewScaleAnimation"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale"
+            android:onClick="onClick"
+
+           />
+        <TextView
+            android:id="@+id/viewTranslateAnimation"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Translate"
+            android:onClick="onClick"
+
+            />
+        <TextView
+            android:id="@+id/viewRotateAnimation"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Rotate"
+            android:onClick="onClick"
+
+            />
+
+        <TextView
+            android:id="@+id/viewSetAnimation"
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="set"
+            android:onClick="onClick"
+
+            />
+    </LinearLayout>
+</ScrollView>
